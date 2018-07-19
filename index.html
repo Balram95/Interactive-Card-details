@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>ATM</title>
+         <link type="text/css" href="Style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="image">
+            <div id="front">
+                <img src="front.jpg">
+                <h3 id="border_one"></h3>
+                <h3 id="border_two"></h3>
+                <h3 id="border_three"></h3>
+            </div>  
+            <div id="back">
+                <img src="back.jpg">
+                <h3 id="border_four"></h3>
+            </div>
+        </div>
+        <div class="form">
+            <input id="card_no" type="text" placeholder="Card Details" onclick="show_header_one()">
+            <input id="name" type="text" placeholder="Card holder name" onclick="show_header_three()">
+            <input id="date" type="text" placeholder="valid till" onclick="show_header_two()">
+            <input id="Cvv" type="text" placeholder="CVV" onclick="show_header_four()">
+        </div>
+        <script src="Script.js"></script>
+    </body>
+</html>
